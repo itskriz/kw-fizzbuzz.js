@@ -7,12 +7,14 @@ Given that FizzBuzz is all the rage lately, I figured I'd try my hand at it. I'v
 
 ## Usage
 
-To generate default FizzBuzz results:
+The script will output an unordered list with results.
+
+To generate default FizzBuzz results (range 1-100, fizz 3, buzz 5):
 ```
 fizzBuzz();
 ```
 
-You can customize the range, fizz, and buzz values by passing parameters (range 1-100, fizz 3, buzz 5) to the function:
+You can customize the range, fizz, and buzz values by passing parameters to the function:
 ```
 fizzBuzz( rangeMin, rangeMax, fizzValue, buzzValue );
 ```
